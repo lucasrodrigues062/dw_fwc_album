@@ -1,4 +1,4 @@
-import 'package:dw_fwc_album/app/core/styles/colors_app.dart';
+import 'package:dw_fwc_album/app/core/ui/styles/colors_app.dart';
 import 'package:flutter/material.dart';
 
 class TextStyles {
