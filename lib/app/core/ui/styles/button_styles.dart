@@ -15,7 +15,7 @@ class ButtonStyles {
     return _instance!;
   }
 
-  ButtonStyle get yellowbutton => ElevatedButton.styleFrom(
+  ButtonStyle get yellowButton => ElevatedButton.styleFrom(
         backgroundColor: ColorsApp.instance.yellow,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),
@@ -25,7 +25,7 @@ class ButtonStyles {
         ),
       );
 
-  ButtonStyle get yellowOutlinebutton => OutlinedButton.styleFrom(
+  ButtonStyle get yellowOutlineButton => OutlinedButton.styleFrom(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),
         ),
@@ -37,7 +37,7 @@ class ButtonStyles {
         ),
       );
 
-  ButtonStyle get primarybutton => ElevatedButton.styleFrom(
+  ButtonStyle get primaryButton => ElevatedButton.styleFrom(
         backgroundColor: ColorsApp.instance.primary,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),
@@ -47,7 +47,7 @@ class ButtonStyles {
         ),
       );
 
-  ButtonStyle get primaryYellowOutlinebutton => OutlinedButton.styleFrom(
+  ButtonStyle get primaryYellowOutlineButton => OutlinedButton.styleFrom(
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(15),
         ),
