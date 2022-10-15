@@ -120,10 +120,10 @@ class _RegisterPageState extends RegisterViewImpl {
                     ),
                     Button.primary(
                       onPressed: () {
-                        showLoader();
                         final formValid =
                             formKey.currentState?.validate() ?? false;
                         if (formValid) {
+                          showLoader();
                           widget.presenter.register(
                             name: nameEC.text,
                             email: emailEC.text,
