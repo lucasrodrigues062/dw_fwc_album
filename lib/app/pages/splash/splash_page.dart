@@ -54,7 +54,7 @@ class _SplashPageState extends SplashViewImpl {
                     style: context.buttonStyles.yellowButton,
                     label: 'Acessar',
                     labelStyle:
-                        context.texStyles.textSecondaryExtraBoldPrimaryColor),
+                        context.textStyles.textSecondaryExtraBoldPrimaryColor),
               ),
             ),
             Align(

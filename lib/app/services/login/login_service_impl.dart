@@ -1,4 +1,4 @@
-// ignore_for_file: public_member_api_docs, sort_constructors_first
+
 import 'package:dw_fwc_album/app/repository/auth/auth_repository.dart';
 import 'package:dw_fwc_album/app/services/login/login_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';

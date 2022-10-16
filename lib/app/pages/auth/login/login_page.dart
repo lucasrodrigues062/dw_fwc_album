@@ -58,7 +58,7 @@ class _LoginPageState extends LoginViewImpl {
                       child: Center(
                         child: Text(
                           'Login',
-                          style: context.texStyles.titleWhite,
+                          style: context.textStyles.titleWhite,
                         ),
                       ),
                     ),
@@ -96,7 +96,7 @@ class _LoginPageState extends LoginViewImpl {
                       padding: const EdgeInsets.only(left: 6.0),
                       child: Text(
                         'Esqueceu a senha?',
-                        style: context.texStyles.textSecondaryFontMedium
+                        style: context.textStyles.textSecondaryFontMedium
                             .copyWith(
                                 color: context.colors.yellow, fontSize: 14),
                       ),
@@ -120,7 +120,7 @@ class _LoginPageState extends LoginViewImpl {
                         style: context.buttonStyles.yellowButton,
                         label: 'Entrar',
                         labelStyle: context
-                            .texStyles.textSecondaryExtraBoldPrimaryColor),
+                            .textStyles.textSecondaryExtraBoldPrimaryColor),
                   ],
                 ),
               ),
@@ -135,7 +135,7 @@ class _LoginPageState extends LoginViewImpl {
                         children: [
                           TextSpan(
                               text: 'Cadastre-se',
-                              style: context.texStyles.textSecondaryFontMedium
+                              style: context.textStyles.textSecondaryFontMedium
                                   .copyWith(
                                 color: context.colors.yellow,
                               ),
@@ -144,7 +144,7 @@ class _LoginPageState extends LoginViewImpl {
                                     .pushNamed('/auth/register')),
                         ],
                       ),
-                      style: context.texStyles.textSecondaryFontMedium
+                      style: context.textStyles.textSecondaryFontMedium
                           .copyWith(color: Colors.white),
                     )
                   ],
